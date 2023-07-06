@@ -61,8 +61,8 @@ class SQLdatabase:
 
 if __name__ == '__main__':
     #define datavbase
-    CTITBKK = SQLdatabase('STP-NB003\MSSQLSERVER22DEV', 'CTITBKK8') #origin database_BI
-    replicate_BI = SQLdatabase('STP-NB003\MSSQLSERVER22DEV', 'replicate_CTITBKK8_BI') #replication of CTITBKK8_BI
+    CTITBKK = SQLdatabase('______\MSSQLSERVER22DEV', 'CTITBKK8') #origin database_BI
+    replicate_BI = SQLdatabase('_____\MSSQLSERVER22DEV', 'replicate_CTITBKK8_BI') #replication of CTITBKK8_BI
 
 
     ## Job control group
